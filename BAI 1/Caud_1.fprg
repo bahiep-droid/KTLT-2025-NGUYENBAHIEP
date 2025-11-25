@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Caud_1"/>
+        <attribute name="authors" value="Admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-11-25 03:42:23 PM"/>
+        <attribute name="created" value="QWRtaW47MTMyLUtUNjA3OzIwMjUtMTEtMjU7MDM6MzI6NDUgUE07MjI3OQ=="/>
+        <attribute name="edited" value="QWRtaW47MTMyLUtUNjA3OzIwMjUtMTEtMjU7MDM6NDI6MjMgUE07MTsyMzg0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Xin Ch&#224;o&quot;" newline="True"/>
+            <declare name="S" type="Real" array="False" size=""/>
+            <declare name="Chieucao" type="Real" array="False" size=""/>
+            <declare name="Canhday" type="Real" array="False" size=""/>
+            <output expression="&quot;Vui l&#242;ng nh&#7853;p chi&#7873;u cao tam gi&#225;c&quot;" newline="True"/>
+            <input variable="ChieuCao"/>
+            <output expression="&quot;Nh&#7853;p c&#7841;nh &#273;&#225;y tam gi&#225;c&quot;" newline="True"/>
+            <input variable="Cachday"/>
+            <assign variable="S" expression="(Chieucao*Canhday)/2"/>
+            <output expression="&quot;Di&#7879;n t&#237;ch tam gi&#225;c&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
